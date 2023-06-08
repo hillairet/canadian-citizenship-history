@@ -16,7 +16,7 @@ function momentData() {
     ["1774/06/22", "Quebec Act passed by the British Parliament:\n- Religious freedom allowed for French catholics\n- French catholics are permitted to hold public office\n- The French civil law is restored while the British criminal law is maintained"],
     ["1776/07/04", "The 13 British colonies south of Quebec declare their independence and form the United States\n- Loyalists flee the oppression and move to Nova Scotia and Quebec\n- Joseph Brant leads thousands of loyalist Mohawk indians to Canada"],
     ["1785/11/01", "First representative assembly in New Brunswick"],
-    ["1791/12/26", "Constitutional act:\n- Divides the Provice of Quebex to Upper Canada (Ontario) and Lower Canada (Quebec)\n- Grants first legislative assemblies elected by the people\n-Official names the land Canada"],
+    ["1791/12/26", "Constitutional act:\n- Divides the Province of Quebec to Upper Canada (Ontario) and Lower Canada (Quebec)\n- Grants first legislative assemblies elected by the people\n-Official names the land Canada"],
     ["1792/01/15", "Black Nova Scotians who were given poor lang move to Sierra Leone to establish Freetown"],
     ["1793/01/21", "The first Assembly of Lower Canada debates whether to use both French and English"],
     ["1793/07/09", "Upper Canada, led by Lieutenant Governor John Graves Simcoe, becomes the first province in the Empire to move towards abolition"],
