@@ -1,10 +1,3 @@
-function rangeData() {
-return [
-    ["Exploration and 1st settlements", "1497/01/01", "1793/01/01"],
-    ["Moving towards democracy", "1973/01/01", "1807/01/01"]
-  ];
-}
-
 // set the moment series data
 function momentData() {
   return [

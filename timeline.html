@@ -21,14 +21,8 @@
         // create a timeline chart
         let chart = anychart.timeline();
 
-        // create a range series
-        let rangeSeries = chart.range(rangeData());
-
         // create a moment series
         let momentSeries = chart.moment(momentData());
-
-        // configure the range series label settings
-        rangeSeries.labels().format("{%name}");
 
         // set the chart title
         chart.title("History of Canada from the Canadian Citizenship Test study guide");
