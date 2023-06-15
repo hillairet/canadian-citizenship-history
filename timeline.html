@@ -28,6 +28,11 @@
         // create a conflict series
         let conflictSeries = chart.moment(conflictData());
         conflictSeries.labels().width(200);
+        conflictSeries.name("Conflicts");
+        conflictSeries.markers().type("star7")
+        conflictSeries.markers().fill("#dd2c00")
+        conflictSeries.markers().stroke("#dd2c00")
+        conflictSeries.markers().size(6)
 
         // set the chart title
         chart.title("History of Canada from the Canadian Citizenship Test study guide");
