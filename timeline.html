@@ -25,6 +25,10 @@
         let momentSeries = chart.moment(momentData());
         momentSeries.labels().width(200);
 
+        // create a conflict series
+        let conflictSeries = chart.moment(conflictData());
+        conflictSeries.labels().width(200);
+
         // set the chart title
         chart.title("History of Canada from the Canadian Citizenship Test study guide");
 
