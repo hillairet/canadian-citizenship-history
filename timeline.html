@@ -21,18 +21,32 @@
         // create a timeline chart
         let chart = anychart.timeline();
 
-        // create a moment series
-        let momentSeries = chart.moment(momentData());
-        momentSeries.labels().width(200);
+        // create a legal series
+        let legalSeries = chart.moment(legalData());
+        legalSeries.labels().width(200);
+        legalSeries.name("Laws and decrees");
+        legalSeries.markers().type("square");
+        legalSeries.markers().fill("#FFFFFF");
+        legalSeries.markers().stroke("#000000");
+        legalSeries.markers().size(5);
+
+        // create a miscellaneous series
+        let miscSeries = chart.moment(miscData());
+        miscSeries.labels().width(200);
+        miscSeries.markers().type("circle");
+        miscSeries.name("Misc. events");
+        miscSeries.markers().fill("#43b1e0");
+        miscSeries.markers().stroke("#3591b8");
+        miscSeries.markers().size(5);
 
         // create a conflict series
         let conflictSeries = chart.moment(conflictData());
         conflictSeries.labels().width(200);
         conflictSeries.name("Conflicts");
-        conflictSeries.markers().type("star7")
-        conflictSeries.markers().fill("#dd2c00")
-        conflictSeries.markers().stroke("#dd2c00")
-        conflictSeries.markers().size(6)
+        conflictSeries.markers().type("star7");
+        conflictSeries.markers().fill("#dd2c00");
+        conflictSeries.markers().stroke("#dd2c00");
+        conflictSeries.markers().size(6);
 
         // set the chart title
         chart.title("History of Canada from the Canadian Citizenship Test study guide");
