@@ -29,7 +29,7 @@ function loadTimeline(historicalData) {
     if (evt.emoji === undefined) {
       timelineItem.setAttribute('date-is', evt.date);
     } else {
-      timelineItem.setAttribute('date-is', evt.date + " " + evt.emoji);
+      timelineItem.setAttribute('date-is',  evt.emoji + " " + evt.date);
     }
 
     var title = document.createElement('h2');
