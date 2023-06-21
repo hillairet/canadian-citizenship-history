@@ -34,22 +34,24 @@ function loadTimeline(historicalData) {
 
     var title = document.createElement('h2');
     title.textContent = evt.title;
+    timelineItem.appendChild(title);
 
-    var description = document.createElement('p');
-    if (Array.isArray(evt.description)) {
+    if (evt.description !== undefined) {
       var descriptionList = document.createElement('ul');
-      evt.description.forEach(function(descriptionItem) {
+      if (Array.isArray(evt.description)) {
+        evt.description.forEach(function(descriptionItem) {
+          var listItem = document.createElement('li');
+          listItem.textContent = descriptionItem;
+          descriptionList.appendChild(listItem);
+        });
+      } else {
         var listItem = document.createElement('li');
-        listItem.textContent = descriptionItem;
+        listItem.textContent = evt.description;
         descriptionList.appendChild(listItem);
-      });
-      description.appendChild(descriptionList);
-    } else {
-      description.textContent = evt.description;
+      }
+      timelineItem.appendChild(descriptionList);
     }
 
-    timelineItem.appendChild(title);
-    timelineItem.appendChild(description);
 
     container.appendChild(timelineItem);
   });
