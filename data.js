@@ -73,7 +73,7 @@ function historicalData() {
         "title": "Misc. events",
         "events": [
           {"date": "1497", "title": "European exploration begins", "description": "John Cabot Draws first map of East Coast", "emoji": "🧭"},
-          {"date": "1534", "title": "Jacques Cartier makes 3 voyages across the Atlantic over 8 years, and claims land for Francis I, King of France.", "description": ["He is the 1st to explore the St Lawrance river and see Montreal and Quebec", "Jacques Cartier hears 2 captured guides speak the Iroquoian word \"kanata\", meaning \"village\""], "emoji": "⚜️"},
+          {"date": "1534", "title": "Jacques Cartier makes 3 voyages across the Atlantic over 8 years, and claims land for Francis I, King of France.", "description": ["He is the 1st to explore the St Lawrence river and see Montreal and Quebec", "Jacques Cartier hears 2 captured guides speak the Iroquoian word \"kanata\", meaning \"village\""], "emoji": "⚜️"},
           {"date": "1550", "title": "\"Canada\" starts appearing on maps", "emoji": "🗺️"},
           {"date": "1604", "title": "Acadians begin settling in the Maritime provinces", "emoji": "⚓"},
           {"date": "1608-07-03", "title": "Samuel de Champlain builds the 1st fortress in Quebec City", "emoji": "⚜️"},
