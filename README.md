@@ -2,7 +2,7 @@
 
 # :canada: Study material for the Canadian Citizenship Test
 
-Preparing for Canadian Citizenship Test is hard.
+Preparing for the Canadian Citizenship Test is hard.
 
 Hopefully this [timeline with the historical events from the Canadian Citizenship study guide][timeline-url] can help you learn.
 
